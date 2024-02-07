@@ -1,6 +1,8 @@
-function FetchButton() {
+
+
+const FetchButton = ({ onFetch }) => {
   return (
-    <button>text</button>
+    <button onClick={onFetch}>New Advice</button>
   );
 }
 
