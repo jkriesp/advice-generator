@@ -17,10 +17,12 @@
   max-width: 343px;
   min-height: 315px;
   margin: auto;
+  margin-top: 50px;
   background-color: var(--dark-grayish-blue);
   color: var(--light-cyan);
   border-radius: 13px;
-  box-shadow: 30px 20px 150px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 30px 20px 150px rgba(0, 0, 0, 0.1); */
+  filter: drop-shadow(30px 50px 200px rgba(0, 0, 0, 0.1));
 
 }
 
