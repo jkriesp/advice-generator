@@ -1,12 +1,11 @@
 const AdviceDisplay = ({ advice }) => {
   return (
-  <div className="adviceContainer">
-    <h1>{advice.id}</h1>
-    <blockquote>{advice.advice}</blockquote>
-  </div>
+    <div className="adviceDisplay">
+      <span className="adviceId">Advice #{advice.id}</span>
+      <q className="quote">{advice.advice}</q>
+      <div className="svgDivider" />
+    </div>
   );
 }
-
-//  	https://api.adviceslip.com/advice
 
 export default AdviceDisplay;

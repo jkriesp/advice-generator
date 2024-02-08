@@ -19,12 +19,11 @@ const App = () => {
 
   // Use useEffect to call handleFetch when the component mounts
   useEffect(() => {
-    console.log("before handle fetch");
     handleFetch();
   }, []); // The empty dependency array ensures this effect runs only once
 
   return (
-    <div>
+    <div className='adviceContainer'>
       <AdviceDisplay advice={advice} />
       <FetchButton onFetch={handleFetch} />
     </div>
